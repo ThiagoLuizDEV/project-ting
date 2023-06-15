@@ -25,5 +25,6 @@ def remove(instance):
     path_file = instance.dequeue()['nome_do_arquivo']
     print(f'Arquivo {path_file} removido com sucesso', file=sys.stdout)
 
+
 def file_metadata(instance, position):
     """Aqui irá sua implementação"""
